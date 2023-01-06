@@ -1,0 +1,25 @@
+name = "arm_cortex"
+description = "Shiny new project"
+version = "1.0.0"
+licenses = "BSD-3-Clause"
+
+tags = ["embedded"]
+website = "https://github.com/wolfbiters/arm_cortex"
+
+authors = ["wolf biters"]
+maintainers = ["wolf biters <the.wolf.biters@gmail.com>"]
+maintainers-logins = ["wolfbiters"]
+
+[[depends-on]]
+gnat_arm_elf = "^12"
+beta_types = "1.0.0"
+
+
+[configuration.variables]
+core = { type = "Enum", values = ["m0", "m0p", "m4", "m4f", "m7f", "m7df"], default = "m7f" }
+runtime = { type = "Enum", values = ["light_cortex"], default = "light_cortex" }
+
+[origin]
+commit = "24512f5c08d9e752e084711ea554001ba7635414"
+url = "git+https://github.com/wolfbiters/arm_cortex.git"
+
