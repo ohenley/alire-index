@@ -1,5 +1,5 @@
 name = "arm_cortex"
-description = "Shiny new project"
+description = "arm cortex support (m0, m0p, m4, m4f, m7f, m7df)"
 version = "1.0.0"
 licenses = "BSD-3-Clause"
 
