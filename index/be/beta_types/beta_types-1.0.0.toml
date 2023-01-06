@@ -1,0 +1,16 @@
+name = "beta_types"
+description = "Rudimentary types for embedded"
+version = "1.0.0"
+licenses = "BSD-3-Clause"
+
+tags = ["embedded"]
+website = "https://github.com/wolfbiters/beta_types"
+
+authors = ["wolfbiters"]
+maintainers = ["wolfbiters <the.wolf.biters@gmail.com>"]
+maintainers-logins = ["wolfbiters"]
+
+[origin]
+commit = "142e6783d2571c04a56306238833d03cbec3dcce"
+url = "git+https://github.com/wolfbiters/beta_types.git"
+
