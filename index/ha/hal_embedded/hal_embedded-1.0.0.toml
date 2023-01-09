@@ -1,0 +1,33 @@
+name = "hal_embedded"
+description = "Hardware Abstraction Layer (HAL)"
+version = "1.0.0"
+licenses = "BSD-3-Clause"
+tags = ["embedded"]
+
+website = "https://github.com/wolfbiters/hal_embedded"
+authors = ["wolf biters"]
+maintainers = ["wolf biters <the.wolf.biters@gmail.com>"]
+maintainers-logins = ["wolfbiters"]
+
+[[depends-on]]
+beta_types = "1.0.0"
+
+[configuration.variables]
+audio = {type = "Boolean", default = false}
+bitmap = {type = "Boolean", default = false}
+block_drivers = {type = "Boolean", default = false}
+dsi = {type = "Boolean", default = false}
+filesystem = {type = "Boolean", default = false}
+framebuffer = {type = "Boolean", default = false}
+gpio = {type = "Boolean", default = false}
+i2c = {type = "Boolean", default = false}
+rtc = {type = "Boolean", default = false}
+sdmmc = {type = "Boolean", default = false}
+spi = {type = "Boolean", default = false}
+time = {type = "Boolean", default = false}
+touch_panel = {type = "Boolean", default = false}
+uart = {type = "Boolean", default = false}
+[origin]
+commit = "09f585a13cd56274020aba4b154f04c3d07823a6"
+url = "git+https://github.com/wolfbiters/hal_embedded.git"
+
