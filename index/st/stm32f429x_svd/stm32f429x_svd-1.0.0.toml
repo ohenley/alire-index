@@ -17,6 +17,6 @@ beta_types = "1.0.0"
 [configuration.variables]
 runtime = { type = "Enum", values = ["embedded"], default = "embedded" }
 [origin]
-commit = "2680e2d5e010465b628456e3ba1aa76166882cbc"
+commit = "5909ca026ae148ca0439e06154e30f509c1b38ed"
 url = "git+https://github.com/wolfbiters/stm32f429x_svd.git"
 
