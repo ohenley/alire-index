@@ -1,0 +1,22 @@
+name = "stm32f429x_svd"
+description = "SVD definitions for the stm32f429x"
+version = "1.0.0"
+licenses = "BSD-3-Clause"
+
+tags = ["embedded"]
+website = "https://github.com/wolfbiters/stm32f429x_svd"
+
+authors = ["wolf biters"]
+maintainers = ["wolf biters <the.wolf.biters@gmail.com>"]
+maintainers-logins = ["wolfbiters"]
+
+[[depends-on]]
+gnat_arm_elf = "^12"
+beta_types = "1.0.0"
+
+[configuration.variables]
+runtime = { type = "Enum", values = ["embedded"], default = "embedded" }
+[origin]
+commit = "2680e2d5e010465b628456e3ba1aa76166882cbc"
+url = "git+https://github.com/wolfbiters/stm32f429x_svd.git"
+
