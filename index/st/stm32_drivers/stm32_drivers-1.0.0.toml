@@ -1,0 +1,56 @@
+name = "stm32_drivers"
+description = "Drivers for the stm32 dev boards"
+version = "1.0.0"
+licenses = "BSD-3-Clause"
+
+tags = ["embedded"]
+website = "https://github.com/wolfbiters/stm32_drivers"
+
+authors = ["wolf biters"]
+maintainers = ["wolf biters <the.wolf.biters@gmail.com>"]
+maintainers-logins = ["wolfbiters"]
+
+[[depends-on]]
+gnat_arm_elf = "^12"
+beta_types = "1.0.0"
+hal_embedded = "1.0.0"
+stm32f429x_svd = "1.0.0"
+
+#[configuration.values]
+
+
+[configuration.variables]
+board = { type = "Enum", values = ["stm32f429disco"], default = "stm32f429disco" }
+runtime = { type = "Enum", values = ["embedded"], default = "embedded" }
+
+#adc = {type = "Boolean", default = true}
+#dac = {type = "Boolean", default = false}
+#dcmi = {type = "Boolean", default = false}
+#device_id = {type = "Boolean", default = false}
+#dma = {type = "Boolean", default = false}
+#dma2d = {type = "Boolean", default = false}
+#dsi = {type = "Boolean", default = false}
+#exti = {type = "Boolean", default = false}
+#fmc = {type = "Boolean", default = false}
+#gpio = {type = "Boolean", default = true}
+#i2c = {type = "Boolean", default = false}
+#i2s = {type = "Boolean", default = false}
+#iwdg = {type = "Boolean", default = false}
+#ltdc = {type = "Boolean", default = false}
+#power_control = {type = "Boolean", default = false}
+#pwm = {type = "Boolean", default = false}
+#rng = {type = "Boolean", default = false}
+#rtc = {type = "Boolean", default = false}
+#sai = {type = "Boolean", default = false}
+#sd = {type = "Boolean", default = false}
+#spi = {type = "Boolean", default = false}
+#syscfg = {type = "Boolean", default = false}
+#timers = {type = "Boolean", default = false}
+#uart = {type = "Boolean", default = false}
+
+
+#arm_cortex.core = "m4f"
+[origin]
+commit = "38d0691fb217955138794ab04e3edeb404b47792"
+url = "git+https://github.com/wolfbiters/stm32_drivers.git"
+
