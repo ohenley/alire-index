@@ -14,12 +14,11 @@ maintainers-logins = ["wolfbiters"]
 gnat_arm_elf = "^12"
 beta_types = "1.0.0"
 
-
 [configuration.variables]
-core = { type = "Enum", values = ["m0", "m0p", "m4", "m4f", "m7f", "m7df"], default = "m7f" }
+core = { type = "Enum", values = ["m0", "m0p", "m4", "m4f", "m7f", "m7df"], default = "m0" }
 runtime = { type = "Enum", values = ["light_cortex"], default = "light_cortex" }
 
 [origin]
-commit = "a272f4c062da05e35b9b7b981d59a43b9db4ba6d"
+commit = "8400c83b006078756e31f7ace61505d73cef52ca"
 url = "git+https://github.com/wolfbiters/arm_cortex.git"
 
