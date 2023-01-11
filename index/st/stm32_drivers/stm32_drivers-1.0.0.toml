@@ -18,12 +18,13 @@ stm32f429x_svd = "1.0.0"
 
 #[configuration.values]
 
-
 [configuration.variables]
 board = { type = "Enum", values = ["stm32f429disco"], default = "stm32f429disco" }
 runtime = { type = "Enum", values = ["embedded"], default = "embedded" }
+stm32_adc_driver = {type = "Boolean", default = false}
 
-#adc = {type = "Boolean", default = true}
+
+
 #dac = {type = "Boolean", default = false}
 #dcmi = {type = "Boolean", default = false}
 #device_id = {type = "Boolean", default = false}
@@ -51,6 +52,6 @@ runtime = { type = "Enum", values = ["embedded"], default = "embedded" }
 
 #arm_cortex.core = "m4f"
 [origin]
-commit = "38d0691fb217955138794ab04e3edeb404b47792"
+commit = "6f5edaa79e0f34b18711317aa6380fd3bedf4a11"
 url = "git+https://github.com/wolfbiters/stm32_drivers.git"
 
