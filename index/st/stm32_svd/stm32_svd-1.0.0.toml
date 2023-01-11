@@ -12,13 +12,9 @@ maintainers-logins = ["wolfbiters"]
 
 [[depends-on]]
 gnat_arm_elf = "^12"
+stm32_config = "1.0.0"
 beta_types = "1.0.0"
-
-[configuration.variables]
-runtime = { type = "Enum", values = ["embedded"], default = "embedded" }
-board = { type = "Enum", values = ["stm32f429disco"], default = "stm32f429disco" }
-
 [origin]
-commit = "d2b7018c1b0e49c7dd34cbe885766ee30df5ee19"
+commit = "4e5311b54a70f99bf9c054918bd653155335540b"
 url = "git+https://github.com/wolfbiters/stm32_svd.git"
 
