@@ -12,19 +12,13 @@ maintainers-logins = ["wolfbiters"]
 
 [[depends-on]]
 gnat_arm_elf = "^12"
+stm32_config = "1.0.0"
 beta_types = "1.0.0"
 hal_embedded = "1.0.0"
 stm32_svd = "1.0.0"
 
-#[configuration.values]
-#stm32_svd.board = "stm32f429disco"
-#stm32_svd.runtime = "embedded"
 
-[configuration.variables]
-#board = { type = "Enum", values = ["stm32f429disco"], default = "stm32f429disco" }
-#runtime = { type = "Enum", values = ["embedded"], default = "embedded" }
-stm32_adc_driver = {type = "Boolean", default = false}
-
+#stm32_adc_driver = {type = "Boolean", default = false}
 #dac = {type = "Boolean", default = false}
 #dcmi = {type = "Boolean", default = false}
 #device_id = {type = "Boolean", default = false}
@@ -50,8 +44,8 @@ stm32_adc_driver = {type = "Boolean", default = false}
 #uart = {type = "Boolean", default = false}
 
 
-#arm_cortex.core = "m4f"
+
 [origin]
-commit = "958d7e6fca490fd1a335f864751778ac803c9a8a"
+commit = "ccaae43856b4f6a7980889fe5e34e15c207aef8a"
 url = "git+https://github.com/wolfbiters/stm32_drivers.git"
 
