@@ -20,6 +20,6 @@ stm32_svd = "1.0.0"
 stm32_drivers = "1.0.0"
 
 [origin]
-commit = "b8ffc72a3bc2d00c9494469d12e6b465e83311ba"
+commit = "baea8f13d396b90f7a1626fe1a05a4bebb12dbb8"
 url = "git+https://github.com/wolfbiters/stm32_components.git"
 
