@@ -1,0 +1,25 @@
+name = "stm32_board"
+description = "stm32 boards common code"
+version = "1.0.0"
+licenses = "BSD-3-Clause"
+
+tags = ["embedded"]
+website = "https://github.com/wolfbiters/stm32_board"
+
+authors = ["wolf biters"]
+maintainers = ["wolf biters <the.wolf.biters@gmail.com>"]
+maintainers-logins = ["wolfbiters"]
+
+[[depends-on]]
+gnat_arm_elf = "^12"
+stm32_config = "1.0.0"
+arm_cortex = "1.0.0"
+beta_types = "1.0.0"
+hal_embedded = "1.0.0"
+stm32_svd = "1.0.0"
+stm32_drivers = "1.0.0"
+
+[origin]
+commit = "799ba1e4a5eadeb0498a5f750a50ce562be4c467"
+url = "git+https://github.com/wolfbiters/stm32_board.git"
+
