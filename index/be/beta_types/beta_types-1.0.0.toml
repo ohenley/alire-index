@@ -11,6 +11,6 @@ maintainers = ["wolfbiters <the.wolf.biters@gmail.com>"]
 maintainers-logins = ["wolfbiters"]
 
 [origin]
-commit = "fe9d3be6f1f7e27de719dcc1a285eefdd85bb75b"
+commit = "7db32ad596df76ee73ea59427466dce986426a75"
 url = "git+https://github.com/wolfbiters/beta_types.git"
 

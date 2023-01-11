@@ -16,9 +16,8 @@ beta_types = "1.0.0"
 
 [configuration.variables]
 core = { type = "Enum", values = ["m0", "m0p", "m4", "m4f", "m7f", "m7df"], default = "m0" }
-runtime = { type = "Enum", values = ["light_cortex"], default = "light_cortex" }
 
 [origin]
-commit = "8400c83b006078756e31f7ace61505d73cef52ca"
+commit = "5d043060342ab51d0dba0e9f9262b03bae75d035"
 url = "git+https://github.com/wolfbiters/arm_cortex.git"
 
