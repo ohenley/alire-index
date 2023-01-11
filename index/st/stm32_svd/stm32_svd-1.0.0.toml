@@ -1,0 +1,24 @@
+name = "stm32_svd"
+description = "SVD definitions for the stm32"
+version = "1.0.0"
+licenses = "BSD-3-Clause"
+
+tags = ["embedded"]
+website = "https://github.com/wolfbiters/stm32_svd"
+
+authors = ["wolf biters"]
+maintainers = ["wolf biters <the.wolf.biters@gmail.com>"]
+maintainers-logins = ["wolfbiters"]
+
+[[depends-on]]
+gnat_arm_elf = "^12"
+beta_types = "1.0.0"
+
+[configuration.variables]
+runtime = { type = "Enum", values = ["embedded"], default = "embedded" }
+board = { type = "Enum", values = ["stm32f429disco"], default = "stm32f429disco" }
+
+[origin]
+commit = "d2b7018c1b0e49c7dd34cbe885766ee30df5ee19"
+url = "git+https://github.com/wolfbiters/stm32_svd.git"
+
