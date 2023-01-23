@@ -1,0 +1,26 @@
+name = "stm32_graphics"
+description = "Graphics for STM32"
+version = "1.0.0"
+licenses = "BSD-3-Clause"
+
+tags = ["embedded"]
+website = "https://github.com/wolfbiters/stm32_graphics"
+
+authors = ["wolf biters"]
+maintainers = ["wolf biters <the.wolf.biters@gmail.com>"]
+maintainers-logins = ["wolfbiters"]
+
+[[depends-on]]
+stm32_config = "1.0.0"
+beta_types = "1.0.0"
+gnat_arm_elf = "^12"
+hal_embedded = "1.0.0"
+stm32_drivers = "1.0.0"
+stm32_boards = "1.0.0"
+#stm32_svd = "1.0.0"
+
+
+[origin]
+commit = "d6a9c4fa9ff8a23bed725a9d24a38865d337d1df"
+url = "git+https://github.com/wolfbiters/stm32_graphics.git"
+
