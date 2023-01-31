@@ -15,7 +15,12 @@ gnat_arm_elf = "^12"
 stm32_config = "1.0.0"
 beta_types = "1.0.0"
 hal_embedded = "1.0.0"
+arm_cortex = "1.0.0"
 stm32_svd = "1.0.0"
+stm32_middleware = "1.0.0"
+
+[configuration.values.arm_cortex]
+core = "m4f"
 
 
 #stm32_adc_driver = {type = "Boolean", default = false}
@@ -46,6 +51,6 @@ stm32_svd = "1.0.0"
 
 
 [origin]
-commit = "ccaae43856b4f6a7980889fe5e34e15c207aef8a"
+commit = "dc5fb1ca41a34c5eef13835b9a42e95d31dbae21"
 url = "git+https://github.com/wolfbiters/stm32_drivers.git"
 
