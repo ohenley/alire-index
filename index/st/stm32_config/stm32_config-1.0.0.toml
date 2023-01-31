@@ -14,7 +14,8 @@ maintainers-logins = ["wolfbiters"]
 mcu = { type = "Enum", values = ["stm32f429x"], default = "stm32f429x" }
 board = { type = "Enum", values = ["stm32f4" , "stm32f429disco", "stm32f469disco", "stm32f746disco", "stm32f769disco"], default = "stm32f429disco" }
 runtime = { type = "Enum", values = ["embedded", "light", "light_tasking"], default = "embedded" }
+HSE_value = {type = "integer", first = 0, default = 8000000}
 [origin]
-commit = "509f00c3efd54a86d62c99084bfed8c3c69f4300"
+commit = "e3f332cab031e931d2afba1cb4da72c210e8bc2c"
 url = "git+https://github.com/wolfbiters/stm32_config.git"
 
