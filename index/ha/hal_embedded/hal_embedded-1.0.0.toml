@@ -12,6 +12,6 @@ maintainers-logins = ["wolfbiters"]
 [[depends-on]]
 beta_types = "1.0.0"
 [origin]
-commit = "fcf0cc3bbaea5129367434e27c02e9b3faab7502"
+commit = "8f99e2429d48988bd580192938bcb554d3afa8a3"
 url = "git+https://github.com/wolfbiters/hal_embedded.git"
 
