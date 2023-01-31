@@ -1,0 +1,26 @@
+name = "stm32_middleware"
+description = "STM32 middleware"
+version = "1.0.0"
+licenses = "BSD-3-Clause"
+
+tags = ["embedded"]
+website = "https://github.com/wolfbiters/stm32_middleware"
+
+authors = ["wolf biters"]
+maintainers = ["wolf biters <the.wolf.biters@gmail.com>"]
+maintainers-logins = ["wolfbiters"]
+
+[[depends-on]]
+gnat_arm_elf = "^12"
+stm32_config = "1.0.0"
+beta_types = "1.0.0"
+hal_embedded = "1.0.0"
+
+[configuration.variables]
+Max_Mount_Points = {type = "integer", first = 1, default = 2}
+Max_Mount_Name_Length = {type = "integer", first = 1, default = 128}
+Max_Path_Length = {type = "integer", first = 1, default = 1024}
+[origin]
+commit = "2c95ec288939949ce4a348f1283f5daaa3b48418"
+url = "git+https://github.com/wolfbiters/stm32_middleware.git"
+
