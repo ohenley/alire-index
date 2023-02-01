@@ -17,10 +17,9 @@ gnat_arm_elf = "^12"
 hal_embedded = "1.0.0"
 stm32_drivers = "1.0.0"
 stm32_boards = "1.0.0"
-#stm32_svd = "1.0.0"
 
 
 [origin]
-commit = "d6a9c4fa9ff8a23bed725a9d24a38865d337d1df"
+commit = "9be4ecb8520e8327ca840783375f88a692c804d6"
 url = "git+https://github.com/wolfbiters/stm32_graphics.git"
 
