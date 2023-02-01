@@ -19,9 +19,6 @@ arm_cortex = "1.0.0"
 stm32_svd = "1.0.0"
 stm32_middleware = "1.0.0"
 
-[configuration.values.arm_cortex]
-core = "m4f"
-
 
 #stm32_adc_driver = {type = "Boolean", default = false}
 #dac = {type = "Boolean", default = false}
@@ -51,6 +48,6 @@ core = "m4f"
 
 
 [origin]
-commit = "cc78045bfb9b379e65a8d86c83c4ab74771db237"
+commit = "cf63c44086a8e0e44174523661b60a9ba4237146"
 url = "git+https://github.com/wolfbiters/stm32_drivers.git"
 
