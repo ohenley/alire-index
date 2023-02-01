@@ -51,6 +51,6 @@ core = "m4f"
 
 
 [origin]
-commit = "dc5fb1ca41a34c5eef13835b9a42e95d31dbae21"
+commit = "cc78045bfb9b379e65a8d86c83c4ab74771db237"
 url = "git+https://github.com/wolfbiters/stm32_drivers.git"
 
