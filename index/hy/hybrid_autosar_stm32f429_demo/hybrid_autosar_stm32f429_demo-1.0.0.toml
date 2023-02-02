@@ -41,6 +41,6 @@ stm32_svd = "1.0.0"
 
 
 [origin]
-commit = "967c130ca96ddda9c052d144805af3b3e68a49d1"
+commit = "243d877f072776fdfbe9cd2e3eda7811a82021b7"
 url = "git+https://github.com/wolfbiters/Hybrid_AUTOSAR_stm32f429_Demo.git"
 
