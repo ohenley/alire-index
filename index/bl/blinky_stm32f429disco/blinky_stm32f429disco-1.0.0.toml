@@ -4,7 +4,7 @@ version = "1.0.0"
 licenses = "BSD-3-Clause"
 
 tags = ["embedded"]
-website = "https://github.com/wolfbiters/beta_types"
+website = "https://github.com/wolfbiters/blinky_stm32f429disco"
 
 authors = ["wolf biters"]
 maintainers = ["wolf biters <the.wolf.biters@gmail.com>"]
@@ -30,6 +30,6 @@ stm32_config.runtime = "embedded"
 
 
 [origin]
-commit = "9965a7e3a1c7ccce14643ef5e80bd94b95d703a1"
+commit = "eb24b85869a19101a837da71daad48d68afd482d"
 url = "git+https://github.com/wolfbiters/blinky_stm32f429disco.git"
 
