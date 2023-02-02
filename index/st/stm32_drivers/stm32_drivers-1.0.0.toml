@@ -48,6 +48,6 @@ stm32_middleware = "1.0.0"
 
 
 [origin]
-commit = "cf63c44086a8e0e44174523661b60a9ba4237146"
+commit = "2e26f3a690c7b6b1a199c7ed0b64a040ec2a80f8"
 url = "git+https://github.com/wolfbiters/stm32_drivers.git"
 
