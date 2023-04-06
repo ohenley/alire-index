@@ -21,6 +21,6 @@ stm32_drivers = "1.0.0"
 stm32_components = "1.0.0"
 
 [origin]
-commit = "6ef050e444931ad14393f26214ba2672112a9f06"
+commit = "0ad6c708f71b86d08d222625cd2e0a389e8bbb48"
 url = "git+https://github.com/wolfbiters/stm32_boards.git"
 
