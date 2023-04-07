@@ -15,6 +15,6 @@ gnat_arm_elf = "^12"
 stm32_config = "1.0.0"
 beta_types = "1.0.0"
 [origin]
-commit = "b8e63dd4a160ef7817c453d9598d37e82407a95e"
+commit = "0b23ad57edc565b501910ee4620ec1d3a249a184"
 url = "git+https://github.com/wolfbiters/stm32_svd.git"
 
