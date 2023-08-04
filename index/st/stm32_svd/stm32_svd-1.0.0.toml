@@ -4,17 +4,17 @@ version = "1.0.0"
 licenses = "BSD-3-Clause"
 
 tags = ["embedded"]
-website = "https://github.com/wolfbiters/stm32_svd"
+website = "https://github.com/ohenley/stm32_svd"
 
-authors = ["wolf biters"]
-maintainers = ["wolf biters <the.wolf.biters@gmail.com>"]
-maintainers-logins = ["wolfbiters"]
+authors = ["AdaCore"]
+maintainers = ["olivier henley <olivier.henley@gmail.com>"]
+maintainers-logins = ["ohenley"]
 
 [[depends-on]]
 gnat_arm_elf = "^12"
 stm32_config = "1.0.0"
 beta_types = "1.0.0"
 [origin]
-commit = "e7004f15baf3e1908946cd83900757321bb970db"
-url = "git+https://github.com/wolfbiters/stm32_svd.git"
+commit = "6a754281410412a5004b71471306d2f575b57040"
+url = "git+https://github.com/ohenley/stm32_svd.git"
 
