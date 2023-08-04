@@ -4,11 +4,11 @@ version = "1.0.0"
 licenses = "BSD-3-Clause"
 
 tags = ["embedded"]
-website = "https://github.com/wolfbiters/arm_cortex"
+website = "https://github.com/ohenley/arm_cortex"
 
-authors = ["wolf biters"]
-maintainers = ["wolf biters <the.wolf.biters@gmail.com>"]
-maintainers-logins = ["wolfbiters"]
+authors = ["AdaCore"]
+maintainers = ["olivier henley <olivier.henley@gmail.com>"]
+maintainers-logins = ["ohenley"]
 
 [[depends-on]]
 gnat_arm_elf = "^12"
@@ -18,6 +18,6 @@ beta_types = "1.0.0"
 core = { type = "Enum", values = ["m0", "m0p", "m4", "m4f", "m7f", "m7df"], default = "m0" }
 
 [origin]
-commit = "13c35c5870c235242243c645f093c2277e467aa2"
-url = "git+https://github.com/wolfbiters/arm_cortex.git"
+commit = "f128771"
+url = "git+https://github.com/ohenley/arm_cortex.git"
 
