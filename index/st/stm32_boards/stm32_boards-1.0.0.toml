@@ -6,9 +6,9 @@ licenses = "BSD-3-Clause"
 tags = ["embedded"]
 website = "https://github.com/wolfbiters/stm32_boards"
 
-authors = ["wolf biters"]
-maintainers = ["wolf biters <the.wolf.biters@gmail.com>"]
-maintainers-logins = ["wolfbiters"]
+authors = ["AdaCore"]
+maintainers = ["olivier henley <olivier.henley@gmail.com>"]
+maintainers-logins = ["ohenley"]
 
 [[depends-on]]
 gnat_arm_elf = "^12"
@@ -21,6 +21,6 @@ stm32_drivers = "1.0.0"
 stm32_components = "1.0.0"
 
 [origin]
-commit = "0ad6c708f71b86d08d222625cd2e0a389e8bbb48"
-url = "git+https://github.com/wolfbiters/stm32_boards.git"
+commit = "9247b89f7e50987daf5ac370b5d0b56662f03361"
+url = "git+https://github.com/ohenley/stm32_boards.git"
 
