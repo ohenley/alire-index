@@ -6,11 +6,11 @@ licenses = "BSD-3-Clause"
 tags = ["embedded"]
 website = "https://github.com/wolfbiters/beta_types"
 
-authors = ["wolfbiters"]
-maintainers = ["wolfbiters <the.wolf.biters@gmail.com>"]
-maintainers-logins = ["wolfbiters"]
+authors = ["Adacore"]
+maintainers = ["olivier henley <ohenley@gmail.com>"]
+maintainers-logins = ["ohenley"]
 
 [origin]
-commit = "ad7308c84e1a98ffe94822decd361b4d977f2ff9"
-url = "git+https://github.com/wolfbiters/beta_types.git"
+commit = "6e27d47603a3514d886103de73b335708b8dc67f"
+url = "git+https://github.com/ohenley/beta_types.git"
 
