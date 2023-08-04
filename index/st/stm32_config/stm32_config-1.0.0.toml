@@ -4,11 +4,11 @@ version = "1.0.0"
 licenses = "BSD-3-Clause"
 
 tags = ["embedded"]
-website = "https://github.com/wolfbiters/stm32_config"
+website = "https://github.com/ohenley/stm32_config"
 
-authors = ["wolf biters"]
-maintainers = ["wolf biters <the.wolf.biters@gmail.com>"]
-maintainers-logins = ["wolfbiters"]
+authors = ["olivier henley"]
+maintainers = ["olivier henley <olivier.henley@gmail.com>"]
+maintainers-logins = ["ohenley"]
 
 [configuration.variables]
 mcu = { type = "Enum", values = ["stm32f407", "stm32f429x"], default = "stm32f429x" }
@@ -16,6 +16,6 @@ board = { type = "Enum", values = ["stm32f407disco" , "stm32f429disco", "stm32f4
 runtime = { type = "Enum", values = ["embedded", "light", "light_tasking"], default = "embedded" }
 HSE_value = {type = "integer", first = 0, default = 8000000}
 [origin]
-commit = "6bda81e4906506a4cb985c25ca614dc10830b8fa"
-url = "git+https://github.com/wolfbiters/stm32_config.git"
+commit = "0c127fd1310f7a82a1b6a78661e88047cc5288bc"
+url = "git+https://github.com/ohenley/stm32_config.git"
 
