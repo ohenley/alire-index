@@ -4,11 +4,11 @@ version = "1.0.0"
 licenses = "BSD-3-Clause"
 
 tags = ["embedded"]
-website = "https://github.com/wolfbiters/stm32_middleware"
+website = "https://github.com/ohenley/stm32_middleware"
 
-authors = ["wolf biters"]
-maintainers = ["wolf biters <the.wolf.biters@gmail.com>"]
-maintainers-logins = ["wolfbiters"]
+authors = ["AdaCore"]
+maintainers = ["olivier henley <olivier.henley@gmail.com>"]
+maintainers-logins = ["ohenley"]
 
 [[depends-on]]
 gnat_arm_elf = "^12"
@@ -21,6 +21,6 @@ Max_Mount_Points = {type = "integer", first = 1, default = 2}
 Max_Mount_Name_Length = {type = "integer", first = 1, default = 128}
 Max_Path_Length = {type = "integer", first = 1, default = 1024}
 [origin]
-commit = "2c95ec288939949ce4a348f1283f5daaa3b48418"
-url = "git+https://github.com/wolfbiters/stm32_middleware.git"
+commit = "df5082e4647c7b713d985b24e278778f63beb962"
+url = "git+https://github.com/ohenley/stm32_middleware.git"
 
