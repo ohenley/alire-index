@@ -4,14 +4,14 @@ version = "1.0.0"
 licenses = "BSD-3-Clause"
 tags = ["embedded"]
 
-website = "https://github.com/wolfbiters/hal_embedded"
-authors = ["wolf biters"]
-maintainers = ["wolf biters <the.wolf.biters@gmail.com>"]
-maintainers-logins = ["wolfbiters"]
+website = "https://github.com/ohenley/hal_embedded"
+authors = ["AdaCore"]
+maintainers = ["olivier henley <ohenley@gmail.com>"]
+maintainers-logins = ["ohenley"]
 
 [[depends-on]]
 beta_types = "1.0.0"
 [origin]
-commit = "5ad88194cd47f8cf26997ffa9c5d6a67fa24107b"
-url = "git+https://github.com/wolfbiters/hal_embedded.git"
+commit = "89dabb91053f8305527d88325d94ba388ffb1391"
+url = "git+https://github.com/ohenley/hal_embedded.git"
 
