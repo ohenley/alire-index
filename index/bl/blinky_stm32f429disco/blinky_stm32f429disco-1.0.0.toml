@@ -6,7 +6,7 @@ licenses = "BSD-3-Clause"
 tags = ["embedded"]
 website = "https://github.com/ohenley/blinky_stm32f429disco"
 
-authors = ["olivier henley"]
+authors = ["AdaCore"]
 maintainers = ["olivier henley <ohenley@gmail.com>"]
 maintainers-logins = ["ohenley"]
 
