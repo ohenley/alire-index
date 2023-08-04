@@ -4,7 +4,7 @@ version = "1.0.0"
 licenses = "BSD-3-Clause"
 
 tags = ["embedded"]
-website = "https://github.com/wolfbiters/stm32_boards"
+website = "https://github.com/ohenley/stm32_boards"
 
 authors = ["AdaCore"]
 maintainers = ["olivier henley <olivier.henley@gmail.com>"]
