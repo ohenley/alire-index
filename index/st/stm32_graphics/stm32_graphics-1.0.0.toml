@@ -4,11 +4,11 @@ version = "1.0.0"
 licenses = "BSD-3-Clause"
 
 tags = ["embedded"]
-website = "https://github.com/wolfbiters/stm32_graphics"
+website = "https://github.com/ohenley/stm32_graphics"
 
-authors = ["wolf biters"]
-maintainers = ["wolf biters <the.wolf.biters@gmail.com>"]
-maintainers-logins = ["wolfbiters"]
+authors = ["AdaCore"]
+maintainers = ["olivier henley <olivier.henley@gmail.com>"]
+maintainers-logins = ["ohenley"]
 
 [[depends-on]]
 stm32_config = "1.0.0"
@@ -18,6 +18,6 @@ hal_embedded = "1.0.0"
 stm32_drivers = "1.0.0"
 stm32_boards = "1.0.0"
 [origin]
-commit = "a092e40890abceb835ecf0a7bd48346d4e47555a"
-url = "git+https://github.com/wolfbiters/stm32_graphics.git"
+commit = "8c653a0edc7e0c1ab5cdca41e162dfc29ad3c642"
+url = "git+https://github.com/ohenley/stm32_graphics.git"
 
