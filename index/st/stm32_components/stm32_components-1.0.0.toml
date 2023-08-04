@@ -4,11 +4,11 @@ version = "1.0.0"
 licenses = "BSD-3-Clause"
 
 tags = ["embedded"]
-website = "https://github.com/wolfbiters/stm32_components"
+website = "https://github.com/ohenley/stm32_components"
 
-authors = ["wolf biters"]
-maintainers = ["wolf biters <the.wolf.biters@gmail.com>"]
-maintainers-logins = ["wolfbiters"]
+authors = ["AdaCore"]
+maintainers = ["olivier henley <olivier.henley@gmail.com>"]
+maintainers-logins = ["ohenley"]
 
 [[depends-on]]
 gnat_arm_elf = "^12"
@@ -20,6 +20,6 @@ stm32_svd = "1.0.0"
 stm32_drivers = "1.0.0"
 
 [origin]
-commit = "baea8f13d396b90f7a1626fe1a05a4bebb12dbb8"
-url = "git+https://github.com/wolfbiters/stm32_components.git"
+commit = "63af492eca616d9a9086eee4ad960e0777c3b9a5"
+url = "git+https://github.com/ohenley/stm32_components.git"
 
