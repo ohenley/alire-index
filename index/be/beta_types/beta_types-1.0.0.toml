@@ -4,7 +4,7 @@ version = "1.0.0"
 licenses = "BSD-3-Clause"
 
 tags = ["embedded"]
-website = "https://github.com/wolfbiters/beta_types"
+website = "https://github.com/ohenley/beta_types"
 
 authors = ["Adacore"]
 maintainers = ["olivier henley <ohenley@gmail.com>"]
