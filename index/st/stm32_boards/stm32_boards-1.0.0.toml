@@ -21,6 +21,6 @@ stm32_drivers = "1.0.0"
 stm32_components = "1.0.0"
 
 [origin]
-commit = "9247b89f7e50987daf5ac370b5d0b56662f03361"
+commit = "37d4489212a6ade1438ba1c06a3743b53e6006f6"
 url = "git+https://github.com/ohenley/stm32_boards.git"
 
