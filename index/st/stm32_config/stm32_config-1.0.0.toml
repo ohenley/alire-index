@@ -6,16 +6,17 @@ licenses = "BSD-3-Clause"
 tags = ["embedded"]
 website = "https://github.com/ohenley/stm32_config"
 
-authors = ["olivier henley"]
+authors = ["AdaCore"]
 maintainers = ["olivier henley <olivier.henley@gmail.com>"]
 maintainers-logins = ["ohenley"]
 
 [configuration.variables]
-mcu = { type = "Enum", values = ["stm32f407", "stm32f429x"], default = "stm32f429x" }
+mcu = { type = "Enum", values = ["stm32f407", "stm32f429x", "stm32f746x"], default = "stm32f429x" }
 board = { type = "Enum", values = ["stm32f407disco" , "stm32f429disco", "stm32f469disco", "stm32f746disco", "stm32f769disco"], default = "stm32f429disco" }
 runtime = { type = "Enum", values = ["embedded", "light", "light_tasking"], default = "embedded" }
 HSE_value = {type = "integer", first = 0, default = 8000000}
+
 [origin]
-commit = "0c127fd1310f7a82a1b6a78661e88047cc5288bc"
+commit = "7540bd2ee3a01983d0f608016a6224f276f7aeb5"
 url = "git+https://github.com/ohenley/stm32_config.git"
 
