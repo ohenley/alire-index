@@ -52,6 +52,6 @@ stm32_middleware = "1.0.0"
 
 
 [origin]
-commit = "16aeacf3277ef9988a9e8a582cf369a54d15fd4d"
+commit = "5318f7cace82ebd83e5d73e76d08be855faa517d"
 url = "git+https://github.com/ohenley/stm32_drivers.git"
 
