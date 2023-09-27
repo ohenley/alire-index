@@ -17,6 +17,6 @@ runtime = { type = "Enum", values = ["embedded", "light", "light_tasking"], defa
 HSE_value = {type = "integer", first = 0, default = 8000000}
 
 [origin]
-commit = "7540bd2ee3a01983d0f608016a6224f276f7aeb5"
+commit = "b2932ff07d8a2e6877156a2cb3554393ed526e91"
 url = "git+https://github.com/ohenley/stm32_config.git"
 
