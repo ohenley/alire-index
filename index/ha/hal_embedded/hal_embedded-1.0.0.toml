@@ -5,13 +5,15 @@ licenses = "BSD-3-Clause"
 tags = ["embedded"]
 
 website = "https://github.com/ohenley/hal_embedded"
+
 authors = ["AdaCore"]
-maintainers = ["olivier henley <ohenley@gmail.com>"]
+maintainers = ["olivier henley <olivier.henley@gmail.com>"]
 maintainers-logins = ["ohenley"]
 
 [[depends-on]]
 beta_types = "1.0.0"
+
 [origin]
-commit = "89dabb91053f8305527d88325d94ba388ffb1391"
+commit = "a7db5ffdc48311c18ea674f858d52b72714faba2"
 url = "git+https://github.com/ohenley/hal_embedded.git"
 
