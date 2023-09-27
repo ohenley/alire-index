@@ -25,6 +25,6 @@ stm32_svd = "1.0.0"
 stm32_drivers = "1.0.0"
 
 [origin]
-commit = "d78b4bbffa9666bff596194077f71c59efdb9446"
+commit = "e82766e44ae41f72e40ef57bb88361bcc500f57c"
 url = "git+https://github.com/ohenley/stm32_components.git"
 
