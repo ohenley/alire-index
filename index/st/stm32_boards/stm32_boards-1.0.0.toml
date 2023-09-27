@@ -10,9 +10,9 @@ authors = ["AdaCore"]
 maintainers = ["olivier henley <olivier.henley@gmail.com>"]
 maintainers-logins = ["ohenley"]
 
-[configuration.values]
-[configuration.values.arm_cortex]
-core = "m7f"
+#[configuration.values]
+#[configuration.values.arm_cortex]
+#core = "m7f"
 
 #[configuration.values.stm32_config]
 #board = "stm32f746disco"
@@ -30,6 +30,6 @@ stm32_drivers = "1.0.0"
 stm32_components = "1.0.0"
 
 [origin]
-commit = "8a6712e2c50e48e90376372528074a15ad3c5e00"
+commit = "351bf80c0cebe572b2d06c57374faa5781de54b3"
 url = "git+https://github.com/ohenley/stm32_boards.git"
 
